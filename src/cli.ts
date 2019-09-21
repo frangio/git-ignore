@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import execa from 'execa';
 import findUp from 'find-up';
 import { promises as fs } from 'fs';
