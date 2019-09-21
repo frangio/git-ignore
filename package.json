@@ -1,0 +1,27 @@
+{
+  "name": "git-ignore",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "git-ignore": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "Francisco Giordano <frangio.1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@oclif/command": "^1.5.19",
+    "@oclif/errors": "^1.2.2",
+    "@octokit/rest": "^16.30.0",
+    "execa": "^2.0.4",
+    "find-up": "^4.1.0",
+    "ora": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  }
+}
