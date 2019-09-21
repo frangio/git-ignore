@@ -8,6 +8,9 @@
   "files": [
     "dist"
   ],
+  "scripts": {
+    "prepare": "tsc"
+  },
   "keywords": [],
   "author": "Francisco Giordano <frangio.1@gmail.com>",
   "license": "MIT",
